@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="AppThemeLuxint" parent="@style/_AppThemeLuxint"/>
+
+  <style name="_AppThemeLuxint" parent="Theme.AppCompat.Light">
+
+    <item name="android:textColorHighlight">#99d6d7d7</item>
+    <item name="android:textSelectHandleLeft">@drawable/appthemeluxint_text_select_handle_left</item>
+    <item name="android:textSelectHandleRight">@drawable/appthemeluxint_text_select_handle_right</item>
+    <item name="android:textSelectHandle">@drawable/appthemeluxint_text_select_handle_middle</item>
+    <!-- Generated with http://android-holo-colors.com
+    <item name="android:buttonStyle">@style/ButtonAppThemeLuxint</item>
+ -->
+
+    <item name="android:buttonStyle">@style/button_style</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtonAppThemeLuxint</item>
+
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarAppThemeLuxint</item>
+
+    <item name="android:listChoiceBackgroundIndicator">@drawable/appthemeluxint_list_selector_holo_light</item>
+
+    <item name="android:activatedBackgroundIndicator">@drawable/appthemeluxint_activated_background_holo_light</item>
+
+    <item name="android:fastScrollThumbDrawable">@drawable/appthemeluxint_fastscroll_thumb_holo</item>
+
+  </style>
+
+</resources>

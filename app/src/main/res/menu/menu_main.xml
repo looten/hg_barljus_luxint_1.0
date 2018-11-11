@@ -1,0 +1,50 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <!--
+       <item
+           android:id="@+id/add_database"
+           android:orderInCategory="100"
+           android:title="@string/add_database"
+           app:showAsAction="never" />
+       <item
+           android:id="@+id/clear_database"
+           android:orderInCategory="100"
+           android:title="@string/clear_database"
+           app:showAsAction="never" />
+
+       <item android:id="@+id/stop_connection" android:title="@string/stop_connection"
+           android:orderInCategory="100" app:showAsAction="never" />
+       <item android:id="@+id/restart_connection" android:title="@string/restart_connection"
+           android:orderInCategory="100" app:showAsAction="never"/>
+
+       <item android:id="@+id/color_code" android:title="@string/color_code"
+           android:orderInCategory="100" app:showAsAction="never" />
+
+              <item android:id="@+id/stress_test" android:title="@string/stress_test"
+           android:orderInCategory="100" app:showAsAction="never" />
+       <item android:id="@+id/stress_test_stop" android:title="@string/stress_test_stop"
+           android:orderInCategory="100" app:showAsAction="never" />
+          -->
+    <item
+        android:id="@+id/reset_led"
+        android:orderInCategory="100"
+        android:title="@string/reset_led"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/add_database"
+        android:title="@string/add_database"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_add_circle_black_24dp"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/clear_database"
+        android:orderInCategory="100"
+        android:title="@string/clear_database"
+        android:icon="@drawable/ic_delete_black_24dp"
+        app:showAsAction="never"
+        />
+
+</menu>

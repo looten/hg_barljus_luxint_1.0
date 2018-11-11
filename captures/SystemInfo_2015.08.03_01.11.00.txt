@@ -1,0 +1,37 @@
+Applications Memory Usage (kB):
+Uptime: 222367136 Realtime: 398429534
+
+** MEMINFO in pid 1799 [com.example.a_interface_v10] **
+                         Shared  Private     Heap     Heap     Heap
+                   Pss    Dirty    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------
+       Native        0        0        0    18516     7438      933
+       Dalvik     6380     5264     6240     6532     5386     1146
+        Stack      152        8      152                           
+       Cursor        0        0        0                           
+       Ashmem        2        4        0                           
+    Other dev      228       36      224                           
+     .so mmap     2764     2896     2272                           
+    .jar mmap        0        0        0                           
+    .apk mmap      143        0        0                           
+    .ttf mmap       54        0        0                           
+    .dex mmap     2609        0       20                           
+   Other mmap       10        8        4                           
+      Unknown     6414      580     6400                           
+        TOTAL    18756     8796    15312    25048    12824     2079
+ 
+ Objects
+               Views:      191         ViewRootImpl:        3
+         AppContexts:        7           Activities:        4
+              Assets:        2        AssetManagers:        2
+       Local Binders:       14        Proxy Binders:       23
+    Death Recipients:        0
+     OpenSSL Sockets:        0
+ 
+ SQL
+         MEMORY_USED:      209
+  PAGECACHE_OVERFLOW:       49          MALLOC_SIZE:       62
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       24             40         7/18/4  /data/data/com.example.a_interface_v10/databases/drinks.db

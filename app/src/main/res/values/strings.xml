@@ -1,0 +1,70 @@
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+    <string name="app_name">Luxint</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <!--
+       library activity
+       -->
+    <string name="clear_database">Rensa databas</string>
+    <string name="add_database">Lagg till databas</string>
+    <string name="stop_connection">Stoppa kommunikation</string>
+    <string name="restart_connection">Starta om kommunikation</string>
+    <string name="color_code">Ändra färg</string>
+    <string name="reset_led">Återställ LED</string>
+    <string name="stress_test">Starta Stress-test</string>
+    <string name="stress_test_stop">Stoppa Stress-test</string>
+
+    <!--
+    main menu activity
+    -->
+    <string name="button_library_text">Bibliotek</string>
+    <string name="button_top_ten_text">Topp 10</string>
+    <string name="button_quick_choice_text">Snabbval</string>
+    <string name="button_random_text">Random</string>
+    <!--
+       library activity
+       -->
+    <string name="library_text">Drinkar A till Ö</string>
+    <string name="title_activity_library">Library</string>
+    <string name="title_activity_top_ten">top_ten</string>
+    <string name="title_activity_drink_week">drink_week</string>
+
+    <!--
+       random activity
+       -->
+    <string name="title_activity_random">random</string>
+    <string name="button_soda_random_text">Läsk</string>
+    <string name="button_juice_random_text">Juice</string>
+    <string name="button_milk_random_text">Mjölk</string>
+    <string name="button_random_random_text">All random</string>
+    <!--
+      show_drink activity
+       -->
+    <string name="title_activity_library_show">LibraryShow</string>
+    <string name="drink_name_libraryshow_text">Large Text</string>
+    <!--
+          top ten activity
+           -->
+    <string name="delete_toptenfile">Rensa lista</string>
+    <string name="title_activity_add_new_drink">AddNewDrink</string>
+
+    <!--
+         add drink
+          -->
+    <string name="add_drink">Lagg till drink</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_connected_to">connected to <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="yes">Ja</string>
+    <string name="no">Nej</string>
+    <string name="sample_btfragment">connected to </string>
+
+    <string name="bt_status">BT status</string>
+    <string name="title_connected">connected</string>
+    <string name="title_connecting">trying to connect...</string>
+    <string name="title_connection_lost">connection lost</string>
+    <string name="title_reconnecting">reconnecting...</string>
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="title_not_connected">not connected</string>
+</resources>
